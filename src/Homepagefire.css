@@ -1,0 +1,34 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+.textbox{
+    height: 500px;
+    width: 500px;
+    overflow: auto;
+    display: flex;
+  }
+
+.svg_home {
+    transform: scale(4.2);
+    color: #fff;
+  }
+  
+  .loader {
+      background: transparent;
+      width: 25px;
+      height: 25px;
+      border: 7px solid rgba(255, 255, 255, 0.3);
+      border-left: 7px solid #fff;
+      border-radius: 50%;
+      animation: spin 1s ease infinite;
+  }
+  
+  @keyframes spin {
+      0% {transform: rotate(0deg);}
+      100% {transform: rotate(360deg);}
+  }
