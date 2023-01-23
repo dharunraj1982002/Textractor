@@ -1,0 +1,24 @@
+{
+  "name": "react-tesseract-ocr",
+  "version": "0.1.0",
+  "description": "Tesseract.js for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeromewu/react-tesseract-ocr.git"
+  },
+  "keywords": [
+    "react",
+    "tesseract",
+    "ocr"
+  ],
+  "author": "Jerome Wu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeromewu/react-tesseract-ocr/issues"
+  },
+  "homepage": "https://github.com/jeromewu/react-tesseract-ocr#readme"
+}
